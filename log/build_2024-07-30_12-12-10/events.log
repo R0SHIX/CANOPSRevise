@@ -1,0 +1,428 @@
+[0.000000] (-) TimerEvent: {}
+[0.001463] (my_main) JobQueued: {'identifier': 'my_main', 'dependencies': OrderedDict()}
+[0.001998] (my_main) JobStarted: {'identifier': 'my_main'}
+[0.082011] (my_main) JobProgress: {'identifier': 'my_main', 'progress': 'cmake'}
+[0.086930] (my_main) JobProgress: {'identifier': 'my_main', 'progress': 'build'}
+[0.089460] (my_main) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CANOPS/build/my_main', '--', '-j4', '-l4'], 'cwd': '/home/pi/CANOPS/build/my_main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/pi'), ('USER', 'pi'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/CANOPS/src/my_main/src'), ('HUSHLOGIN', 'FALSE'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1126'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('JOURNAL_STREAM', '8:24643'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'linux'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd4e3a45ea80b4ab3be9ce96b7508c115'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_VTNR', '1'), ('PWD', '/home/pi/CANOPS/build/my_main'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100000] (-) TimerEvent: {}
+[0.202960] (-) TimerEvent: {}
+[0.303854] (-) TimerEvent: {}
+[0.305591] (my_main) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CAN\x1b[0m\n'}
+[0.311881] (my_main) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target object\x1b[0m\n'}
+[0.373579] (my_main) StdoutLine: {'line': b'[ 33%] Built target camera\n'}
+[0.392869] (my_main) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/CAN.dir/src/CANMessaging.cpp.o\x1b[0m\n'}
+[0.404101] (-) TimerEvent: {}
+[0.409270] (my_main) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o\x1b[0m\n'}
+[0.504327] (-) TimerEvent: {}
+[0.605156] (-) TimerEvent: {}
+[0.705891] (-) TimerEvent: {}
+[0.806715] (-) TimerEvent: {}
+[0.907706] (-) TimerEvent: {}
+[1.008458] (-) TimerEvent: {}
+[1.109218] (-) TimerEvent: {}
+[1.210086] (-) TimerEvent: {}
+[1.311340] (-) TimerEvent: {}
+[1.412161] (-) TimerEvent: {}
+[1.512986] (-) TimerEvent: {}
+[1.613785] (-) TimerEvent: {}
+[1.714872] (-) TimerEvent: {}
+[1.816196] (-) TimerEvent: {}
+[1.916929] (-) TimerEvent: {}
+[2.017720] (-) TimerEvent: {}
+[2.118704] (-) TimerEvent: {}
+[2.220015] (-) TimerEvent: {}
+[2.320969] (-) TimerEvent: {}
+[2.421964] (-) TimerEvent: {}
+[2.522972] (-) TimerEvent: {}
+[2.624083] (-) TimerEvent: {}
+[2.725095] (-) TimerEvent: {}
+[2.826041] (-) TimerEvent: {}
+[2.926954] (-) TimerEvent: {}
+[3.027920] (-) TimerEvent: {}
+[3.129012] (-) TimerEvent: {}
+[3.230115] (-) TimerEvent: {}
+[3.331110] (-) TimerEvent: {}
+[3.432148] (-) TimerEvent: {}
+[3.533223] (-) TimerEvent: {}
+[3.634099] (-) TimerEvent: {}
+[3.735289] (-) TimerEvent: {}
+[3.836614] (-) TimerEvent: {}
+[3.937917] (-) TimerEvent: {}
+[4.038953] (-) TimerEvent: {}
+[4.139985] (-) TimerEvent: {}
+[4.241047] (-) TimerEvent: {}
+[4.342162] (-) TimerEvent: {}
+[4.443077] (-) TimerEvent: {}
+[4.544066] (-) TimerEvent: {}
+[4.645168] (-) TimerEvent: {}
+[4.746154] (-) TimerEvent: {}
+[4.847055] (-) TimerEvent: {}
+[4.948194] (-) TimerEvent: {}
+[5.049340] (-) TimerEvent: {}
+[5.150366] (-) TimerEvent: {}
+[5.251372] (-) TimerEvent: {}
+[5.352481] (-) TimerEvent: {}
+[5.453513] (-) TimerEvent: {}
+[5.554521] (-) TimerEvent: {}
+[5.655573] (-) TimerEvent: {}
+[5.756561] (-) TimerEvent: {}
+[5.857469] (-) TimerEvent: {}
+[5.958394] (-) TimerEvent: {}
+[6.059443] (-) TimerEvent: {}
+[6.160368] (-) TimerEvent: {}
+[6.261308] (-) TimerEvent: {}
+[6.362248] (-) TimerEvent: {}
+[6.463175] (-) TimerEvent: {}
+[6.564217] (-) TimerEvent: {}
+[6.665172] (-) TimerEvent: {}
+[6.766132] (-) TimerEvent: {}
+[6.867148] (-) TimerEvent: {}
+[6.968092] (-) TimerEvent: {}
+[7.069022] (-) TimerEvent: {}
+[7.169979] (-) TimerEvent: {}
+[7.271157] (-) TimerEvent: {}
+[7.372293] (-) TimerEvent: {}
+[7.473289] (-) TimerEvent: {}
+[7.574214] (-) TimerEvent: {}
+[7.675277] (-) TimerEvent: {}
+[7.776222] (-) TimerEvent: {}
+[7.877155] (-) TimerEvent: {}
+[7.978119] (-) TimerEvent: {}
+[8.079129] (-) TimerEvent: {}
+[8.180118] (-) TimerEvent: {}
+[8.281042] (-) TimerEvent: {}
+[8.382084] (-) TimerEvent: {}
+[8.483217] (-) TimerEvent: {}
+[8.584213] (-) TimerEvent: {}
+[8.685211] (-) TimerEvent: {}
+[8.786121] (-) TimerEvent: {}
+[8.887180] (-) TimerEvent: {}
+[8.988463] (-) TimerEvent: {}
+[9.089832] (-) TimerEvent: {}
+[9.190805] (-) TimerEvent: {}
+[9.291869] (-) TimerEvent: {}
+[9.392869] (-) TimerEvent: {}
+[9.495157] (-) TimerEvent: {}
+[9.596122] (-) TimerEvent: {}
+[9.697056] (-) TimerEvent: {}
+[9.798115] (-) TimerEvent: {}
+[9.899401] (-) TimerEvent: {}
+[10.000342] (-) TimerEvent: {}
+[10.101543] (-) TimerEvent: {}
+[10.202698] (-) TimerEvent: {}
+[10.304168] (-) TimerEvent: {}
+[10.405167] (-) TimerEvent: {}
+[10.506113] (-) TimerEvent: {}
+[10.607080] (-) TimerEvent: {}
+[10.708131] (-) TimerEvent: {}
+[10.809092] (-) TimerEvent: {}
+[10.910017] (-) TimerEvent: {}
+[11.010978] (-) TimerEvent: {}
+[11.111945] (-) TimerEvent: {}
+[11.212921] (-) TimerEvent: {}
+[11.313914] (-) TimerEvent: {}
+[11.414855] (-) TimerEvent: {}
+[11.515826] (-) TimerEvent: {}
+[11.616763] (-) TimerEvent: {}
+[11.717741] (-) TimerEvent: {}
+[11.818750] (-) TimerEvent: {}
+[11.919806] (-) TimerEvent: {}
+[12.020749] (-) TimerEvent: {}
+[12.043535] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CANMessage::detect_callback(const Bool&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.044677] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:34:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Bool\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Bool_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[12.045916] (my_main) StderrLine: {'line': b'   34 |                 if(msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdata){\n'}
+[12.046958] (my_main) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.047884] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:35:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} in assignment\n'}
+[12.050574] (my_main) StderrLine: {'line': b'   35 |                     sendData[LEN] = {0x22,0x13,0x40,0x00,0x52,0x00,0x00,0x00\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[12.051438] (my_main) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.052125] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:39:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} in assignment\n'}
+[12.052700] (my_main) StderrLine: {'line': b'   39 |                     sendData[LEN] = {0x22,0x13,0x40,0x00,0x29,0x00,0x00,0x00\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[12.053241] (my_main) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.053798] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:43:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} in assignment\n'}
+[12.054353] (my_main) StderrLine: {'line': b'   43 |                     sendData[LEN] = {0x22,0x13,0x40,0x00,0x00,0x00,0x00,0x00\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[12.054883] (my_main) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.055614] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:47:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} in assignment\n'}
+[12.056177] (my_main) StderrLine: {'line': b'   47 |                     sendData[LEN] = {0x42,0x13,0x40,0x00,0xA5,0x00,0x00,0x00\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[12.056751] (my_main) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.057277] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CANMessage::SendMessage(uint32_t, uint8_t*, uint8_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.057852] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:57:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[12.058362] (my_main) StderrLine: {'line': b'   57 |                 \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K.LEN = length\n'}
+[12.058760] (my_main) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.059103] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:57:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[12.059699] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[12.060252] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[12.060835] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[12.061405] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[12.062060] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[12.062699] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.063357] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.063998] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.064580] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.065156] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.065800] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.066379] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.066997] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.067739] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.068339] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:3\x1b[m\x1b[K:\n'}
+[12.069073] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.069923] (my_main) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[12.070511] (my_main) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.071063] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[12.071748] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[12.072331] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[12.072886] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[12.073430] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[12.073963] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.074502] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.075136] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.075828] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.076457] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.077041] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.077577] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.078107] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:3\x1b[m\x1b[K:\n'}
+[12.078667] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.079220] (my_main) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[12.079867] (my_main) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.080416] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[12.080990] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[12.081603] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[12.082149] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[12.082704] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[12.083288] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[12.083950] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.084506] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.085123] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.085700] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.086297] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.086850] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.087479] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.088085] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:3\x1b[m\x1b[K:\n'}
+[12.088646] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.089275] (my_main) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[12.089912] (my_main) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.090458] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp:7\x1b[m\x1b[K,\n'}
+[12.091053] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:6\x1b[m\x1b[K:\n'}
+[12.091665] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.092316] (my_main) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[12.092865] (my_main) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.093388] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:53:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.093944] (my_main) StderrLine: {'line': b'   53 |             void SendMessage(uint32_t id, \x1b[01;35m\x1b[Kuint8_t* data\x1b[m\x1b[K, uint8_t length ){\n'}
+[12.094470] (my_main) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[12.120997] (-) TimerEvent: {}
+[12.221975] (-) TimerEvent: {}
+[12.322909] (-) TimerEvent: {}
+[12.423891] (-) TimerEvent: {}
+[12.524804] (-) TimerEvent: {}
+[12.625733] (-) TimerEvent: {}
+[12.726621] (-) TimerEvent: {}
+[12.827632] (-) TimerEvent: {}
+[12.928549] (-) TimerEvent: {}
+[13.029511] (-) TimerEvent: {}
+[13.130442] (-) TimerEvent: {}
+[13.231449] (-) TimerEvent: {}
+[13.332433] (-) TimerEvent: {}
+[13.433359] (-) TimerEvent: {}
+[13.534313] (-) TimerEvent: {}
+[13.635361] (-) TimerEvent: {}
+[13.736288] (-) TimerEvent: {}
+[13.837350] (-) TimerEvent: {}
+[13.938416] (-) TimerEvent: {}
+[14.039895] (-) TimerEvent: {}
+[14.140871] (-) TimerEvent: {}
+[14.241904] (-) TimerEvent: {}
+[14.342865] (-) TimerEvent: {}
+[14.443788] (-) TimerEvent: {}
+[14.544716] (-) TimerEvent: {}
+[14.645729] (-) TimerEvent: {}
+[14.746795] (-) TimerEvent: {}
+[14.847914] (-) TimerEvent: {}
+[14.948905] (-) TimerEvent: {}
+[15.049862] (-) TimerEvent: {}
+[15.150797] (-) TimerEvent: {}
+[15.251856] (-) TimerEvent: {}
+[15.352998] (-) TimerEvent: {}
+[15.453891] (-) TimerEvent: {}
+[15.554856] (-) TimerEvent: {}
+[15.655884] (-) TimerEvent: {}
+[15.756991] (-) TimerEvent: {}
+[15.857935] (-) TimerEvent: {}
+[15.958903] (-) TimerEvent: {}
+[16.060090] (-) TimerEvent: {}
+[16.161112] (-) TimerEvent: {}
+[16.262079] (-) TimerEvent: {}
+[16.363120] (-) TimerEvent: {}
+[16.464112] (-) TimerEvent: {}
+[16.565045] (-) TimerEvent: {}
+[16.666008] (-) TimerEvent: {}
+[16.767107] (-) TimerEvent: {}
+[16.868252] (-) TimerEvent: {}
+[16.969274] (-) TimerEvent: {}
+[17.070305] (-) TimerEvent: {}
+[17.171216] (-) TimerEvent: {}
+[17.272144] (-) TimerEvent: {}
+[17.304228] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:1\x1b[m\x1b[K:\n'}
+[17.305079] (my_main) StderrLine: {'line': b'/usr/include/c++/11/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (HumanDetector::*)(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >), HumanDetector*>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.305680] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:768:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (HumanDetector::*)(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >), HumanDetector*>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.306504] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (HumanDetector::*)(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >); _BoundArgs = {HumanDetector*}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.307337] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:25:87:\x1b[m\x1b[K   required from here\n'}
+[17.307957] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[17.308524] (my_main) StderrLine: {'line': b'  755 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[17.309075] (my_main) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[17.309634] (my_main) StderrLine: {'line': b'  756 | \x1b[01;31m\x1b[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[17.310196] (my_main) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.310764] (my_main) StderrLine: {'line': b'  757 | \x1b[01;31m\x1b[K                    : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[17.311369] (my_main) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.312255] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[17.323548] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KHumanDetector::HumanDetector()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.325043] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:25:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KHumanDetector::create_wall_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (HumanDetector::*)(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >), HumanDetector*>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.325748] (my_main) StderrLine: {'line': b'   25 |             timer_ = \x1b[01;31m\x1b[Kthis->create_wall_timer(std::chrono::milliseconds(100), std::bind(&HumanDetector::image_callback, this ))\x1b[m\x1b[K;\n'}
+[17.326392] (my_main) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.326970] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[17.327588] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[17.328381] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[17.328935] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:3\x1b[m\x1b[K:\n'}
+[17.329530] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.330276] (my_main) StderrLine: {'line': b'  238 |   \x1b[01;36m\x1b[Kcreate_wall_timer\x1b[m\x1b[K(\n'}
+[17.330807] (my_main) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.331403] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[17.332130] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[17.332688] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[17.333260] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[17.333829] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[17.334475] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:3\x1b[m\x1b[K:\n'}
+[17.335125] (my_main) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1, 1000>; CallbackT = std::_Bind<void (HumanDetector::*(HumanDetector*))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.335773] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:25:45:\x1b[m\x1b[K   required from here\n'}
+[17.336345] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.336951] (my_main) StderrLine: {'line': b'  110 | \x1b[01;31m\x1b[KNode\x1b[m\x1b[K::create_wall_timer(\n'}
+[17.337484] (my_main) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[17.338040] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.338589] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[17.372345] (-) TimerEvent: {}
+[17.473256] (-) TimerEvent: {}
+[17.574173] (-) TimerEvent: {}
+[17.675106] (-) TimerEvent: {}
+[17.776081] (-) TimerEvent: {}
+[17.876969] (-) TimerEvent: {}
+[17.977897] (-) TimerEvent: {}
+[18.078854] (-) TimerEvent: {}
+[18.179823] (-) TimerEvent: {}
+[18.280768] (-) TimerEvent: {}
+[18.381755] (-) TimerEvent: {}
+[18.482698] (-) TimerEvent: {}
+[18.583692] (-) TimerEvent: {}
+[18.684665] (-) TimerEvent: {}
+[18.785612] (-) TimerEvent: {}
+[18.886584] (-) TimerEvent: {}
+[18.987554] (-) TimerEvent: {}
+[19.088548] (-) TimerEvent: {}
+[19.189646] (-) TimerEvent: {}
+[19.290710] (-) TimerEvent: {}
+[19.391876] (-) TimerEvent: {}
+[19.492783] (-) TimerEvent: {}
+[19.593678] (-) TimerEvent: {}
+[19.694727] (-) TimerEvent: {}
+[19.795703] (-) TimerEvent: {}
+[19.896632] (-) TimerEvent: {}
+[19.997597] (-) TimerEvent: {}
+[20.098554] (-) TimerEvent: {}
+[20.199462] (-) TimerEvent: {}
+[20.300374] (-) TimerEvent: {}
+[20.401283] (-) TimerEvent: {}
+[20.502320] (-) TimerEvent: {}
+[20.603392] (-) TimerEvent: {}
+[20.704333] (-) TimerEvent: {}
+[20.805347] (-) TimerEvent: {}
+[20.906919] (-) TimerEvent: {}
+[21.007832] (-) TimerEvent: {}
+[21.108699] (-) TimerEvent: {}
+[21.209530] (-) TimerEvent: {}
+[21.310341] (-) TimerEvent: {}
+[21.411289] (-) TimerEvent: {}
+[21.512201] (-) TimerEvent: {}
+[21.613116] (-) TimerEvent: {}
+[21.714067] (-) TimerEvent: {}
+[21.815022] (-) TimerEvent: {}
+[21.915990] (-) TimerEvent: {}
+[22.016954] (-) TimerEvent: {}
+[22.118106] (-) TimerEvent: {}
+[22.220319] (-) TimerEvent: {}
+[22.224640] (my_main) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/CAN.dir/build.make:76: CMakeFiles/CAN.dir/src/CANMessaging.cpp.o] Error 1\n'}
+[22.225525] (my_main) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/CAN.dir/all] Error 2\n'}
+[22.226098] (my_main) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[22.320491] (-) TimerEvent: {}
+[22.421309] (-) TimerEvent: {}
+[22.522130] (-) TimerEvent: {}
+[22.622947] (-) TimerEvent: {}
+[22.723781] (-) TimerEvent: {}
+[22.824643] (-) TimerEvent: {}
+[22.925485] (-) TimerEvent: {}
+[23.026295] (-) TimerEvent: {}
+[23.127117] (-) TimerEvent: {}
+[23.227974] (-) TimerEvent: {}
+[23.328869] (-) TimerEvent: {}
+[23.429683] (-) TimerEvent: {}
+[23.530508] (-) TimerEvent: {}
+[23.631385] (-) TimerEvent: {}
+[23.732220] (-) TimerEvent: {}
+[23.833077] (-) TimerEvent: {}
+[23.933861] (-) TimerEvent: {}
+[24.034677] (-) TimerEvent: {}
+[24.135498] (-) TimerEvent: {}
+[24.236353] (-) TimerEvent: {}
+[24.337261] (-) TimerEvent: {}
+[24.438113] (-) TimerEvent: {}
+[24.538885] (-) TimerEvent: {}
+[24.639731] (-) TimerEvent: {}
+[24.740530] (-) TimerEvent: {}
+[24.841309] (-) TimerEvent: {}
+[24.942116] (-) TimerEvent: {}
+[25.042904] (-) TimerEvent: {}
+[25.143723] (-) TimerEvent: {}
+[25.244508] (-) TimerEvent: {}
+[25.345299] (-) TimerEvent: {}
+[25.446118] (-) TimerEvent: {}
+[25.546923] (-) TimerEvent: {}
+[25.647775] (-) TimerEvent: {}
+[25.748575] (-) TimerEvent: {}
+[25.849396] (-) TimerEvent: {}
+[25.950241] (-) TimerEvent: {}
+[26.051054] (-) TimerEvent: {}
+[26.152035] (-) TimerEvent: {}
+[26.252869] (-) TimerEvent: {}
+[26.353694] (-) TimerEvent: {}
+[26.454519] (-) TimerEvent: {}
+[26.555403] (-) TimerEvent: {}
+[26.656255] (-) TimerEvent: {}
+[26.757130] (-) TimerEvent: {}
+[26.858005] (-) TimerEvent: {}
+[26.958878] (-) TimerEvent: {}
+[27.059826] (-) TimerEvent: {}
+[27.160684] (-) TimerEvent: {}
+[27.261598] (-) TimerEvent: {}
+[27.362567] (-) TimerEvent: {}
+[27.463471] (-) TimerEvent: {}
+[27.564302] (-) TimerEvent: {}
+[27.665133] (-) TimerEvent: {}
+[27.765962] (-) TimerEvent: {}
+[27.866714] (-) TimerEvent: {}
+[27.967545] (-) TimerEvent: {}
+[28.068284] (-) TimerEvent: {}
+[28.169038] (-) TimerEvent: {}
+[28.269848] (-) TimerEvent: {}
+[28.370694] (-) TimerEvent: {}
+[28.471608] (-) TimerEvent: {}
+[28.572435] (-) TimerEvent: {}
+[28.673314] (-) TimerEvent: {}
+[28.774298] (-) TimerEvent: {}
+[28.875220] (-) TimerEvent: {}
+[28.976135] (-) TimerEvent: {}
+[29.075771] (my_main) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/object.dir/build.make:76: CMakeFiles/object.dir/src/ObjectDetNode.cpp.o] Error 1\n'}
+[29.076435] (-) TimerEvent: {}
+[29.076848] (my_main) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/object.dir/all] Error 2\n'}
+[29.077396] (my_main) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[29.083494] (my_main) CommandEnded: {'returncode': 2}
+[29.176615] (-) TimerEvent: {}
+[29.277987] (-) TimerEvent: {}
+[29.305564] (my_main) JobEnded: {'identifier': 'my_main', 'rc': 2}
+[29.512327] (-) TimerEvent: {}
+[29.512671] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target object[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/camera.dir/src/cameraNode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+gmake[2]: *** [CMakeFiles/camera.dir/build.make:76: CMakeFiles/camera.dir/src/cameraNode.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/object.dir/build.make:76: CMakeFiles/object.dir/src/ObjectDetNode.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/camera.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/object.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

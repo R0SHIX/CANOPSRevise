@@ -1,0 +1,22 @@
+[100%] Built target camera
+[100%] Built target object
+-- Install configuration: ""
+-- Up-to-date: /home/pi/CANOPS/install/my_main/lib/my_main/camera
+-- Up-to-date: /home/pi/CANOPS/install/my_main/lib/my_main/object
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/launch
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/launch/camera.launch.py
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/package_run_dependencies/my_main
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/parent_prefix_path/my_main
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/environment/ament_prefix_path.sh
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/environment/path.sh
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/environment/path.dsv
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.bash
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.sh
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.zsh
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.dsv
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/package.dsv
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/packages/my_main
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/cmake/my_mainConfig.cmake
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/cmake/my_mainConfig-version.cmake
+-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/package.xml

@@ -1,0 +1,134 @@
+[35m[1mConsolidate compiler generated dependencies of target object[0m
+[35m[1mConsolidate compiler generated dependencies of target camera[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+[ 75%] Built target camera
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:[m[K In member function ‘[01m[Kvoid HumanDetector::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kauto[m[K’ not permitted in template argument
+   43 |                     auto confidence = detectionMat.at<[01;31m[Kauto[m[K>(i,1);
+      |                                                       [01;31m[K^~~~[m[K
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::Mat::at<<expression error> >(int&, int)[m[K’
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1921:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp& cv::Mat::at(int)[m[K’
+ 1921 |     template<typename _Tp> _Tp& [01;36m[Kat[m[K(int i0=0);
+      |                                 [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1921:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1925:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp& cv::Mat::at(int) const[m[K’
+ 1925 |     template<typename _Tp> const _Tp& [01;36m[Kat[m[K(int i0=0) const;
+      |                                       [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1925:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1930:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp& cv::Mat::at(int, int)[m[K’
+ 1930 |     template<typename _Tp> _Tp& [01;36m[Kat[m[K(int row, int col);
+      |                                 [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1930:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1935:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp& cv::Mat::at(int, int) const[m[K’
+ 1935 |     template<typename _Tp> const _Tp& [01;36m[Kat[m[K(int row, int col) const;
+      |                                       [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1935:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1942:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp& cv::Mat::at(int, int, int)[m[K’
+ 1942 |     template<typename _Tp> _Tp& [01;36m[Kat[m[K(int i0, int i1, int i2);
+      |                                 [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1942:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1948:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp& cv::Mat::at(int, int, int) const[m[K’
+ 1948 |     template<typename _Tp> const _Tp& [01;36m[Kat[m[K(int i0, int i1, int i2) const;
+      |                                       [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1948:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1953:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp& cv::Mat::at(const int*)[m[K’
+ 1953 |     template<typename _Tp> _Tp& [01;36m[Kat[m[K(const int* idx);
+      |                                 [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1953:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1957:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp& cv::Mat::at(const int*) const[m[K’
+ 1957 |     template<typename _Tp> const _Tp& [01;36m[Kat[m[K(const int* idx) const;
+      |                                       [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1957:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1960:40:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int n> _Tp& cv::Mat::at(const cv::Vec<int, n>&)[m[K’
+ 1960 |     template<typename _Tp, int n> _Tp& [01;36m[Kat[m[K(const Vec<int, n>& idx);
+      |                                        [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1960:40:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1962:46:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int n> const _Tp& cv::Mat::at(const cv::Vec<int, n>&) const[m[K’
+ 1962 |     template<typename _Tp, int n> const _Tp& [01;36m[Kat[m[K(const Vec<int, n>& idx) const;
+      |                                              [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1962:46:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1968:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp& cv::Mat::at(cv::Point)[m[K’
+ 1968 |     template<typename _Tp> _Tp& [01;36m[Kat[m[K(Point pt);
+      |                                 [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1968:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46[m[K,
+                 from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1973:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp& cv::Mat::at(cv::Point) const[m[K’
+ 1973 |     template<typename _Tp> const _Tp& [01;36m[Kat[m[K(Point pt) const;
+      |                                       [01;36m[K^~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1973:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |                     auto confidence = [01;31m[KdetectionMat.at<auto>(i,1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/object.dir/build.make:76: CMakeFiles/object.dir/src/ObjectDetNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/object.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

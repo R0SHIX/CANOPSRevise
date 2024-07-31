@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target object[0m
+[ 50%] Built target camera
+[ 75%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable object[0m
+[100%] Built target object
+-- Install configuration: ""
+-- Installing: /home/pi/CANOPS/install/my_main/lib/my_main/camera
+-- Set runtime path of "/home/pi/CANOPS/install/my_main/lib/my_main/camera" to ""
+-- Installing: /home/pi/CANOPS/install/my_main/lib/my_main/object
+-- Set runtime path of "/home/pi/CANOPS/install/my_main/lib/my_main/object" to ""
+-- Installing: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/package_run_dependencies/my_main
+-- Installing: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/parent_prefix_path/my_main
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/environment/ament_prefix_path.sh
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/environment/ament_prefix_path.dsv
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/environment/path.sh
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/environment/path.dsv
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.bash
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.sh
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.zsh
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.dsv
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/package.dsv
+-- Installing: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/packages/my_main
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/cmake/my_mainConfig.cmake
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/cmake/my_mainConfig-version.cmake
+-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/package.xml

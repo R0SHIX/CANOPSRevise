@@ -1,0 +1,49 @@
+[0.082s] Invoking command in '/home/pi/CANOPS/build/my_main': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target CAN[0m
+[0.332s] [ 33%] Built target camera
+[0.334s] [ 50%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+[0.356s] [ 66%] [32mBuilding CXX object CMakeFiles/CAN.dir/src/CANMessaging.cpp.o[0m
+[12.092s] [01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:[m[K In member function ‘[01m[Kvoid CANMessage::detect_callback(const Bool&)[m[K’:
+[12.094s] [01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:36:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >*[m[K’
+[12.097s]    36 |                     SendMessage(ID, [01;31m[KsendData[m[K, LEN);
+[12.100s]       |                                     [01;31m[K^~~~~~~~[m[K
+[12.103s]       |                                     [01;31m[K|[m[K
+[12.106s]       |                                     [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+[12.108s] [01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:53:65:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid CANMessage::SendMessage(uint32_t, std::vector<unsigned char, std::allocator<unsigned char> >*, uint8_t)[m[K’
+[12.111s]    53 |             void SendMessage(uint32_t id, [01;36m[Kstd::vector<uint8_t>* data[m[K, uint8_t length ){
+[12.115s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[12.117s] [01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:40:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >*[m[K’
+[12.120s]    40 |                     SendMessage(ID, [01;31m[KsendData[m[K, LEN);
+[12.123s]       |                                     [01;31m[K^~~~~~~~[m[K
+[12.126s]       |                                     [01;31m[K|[m[K
+[12.130s]       |                                     [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+[12.133s] [01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:53:65:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid CANMessage::SendMessage(uint32_t, std::vector<unsigned char, std::allocator<unsigned char> >*, uint8_t)[m[K’
+[12.136s]    53 |             void SendMessage(uint32_t id, [01;36m[Kstd::vector<uint8_t>* data[m[K, uint8_t length ){
+[12.139s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[12.142s] [01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:44:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >*[m[K’
+[12.144s]    44 |                     SendMessage(ID, [01;31m[KsendData[m[K, LEN);
+[12.147s]       |                                     [01;31m[K^~~~~~~~[m[K
+[12.150s]       |                                     [01;31m[K|[m[K
+[12.154s]       |                                     [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+[12.157s] [01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:53:65:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid CANMessage::SendMessage(uint32_t, std::vector<unsigned char, std::allocator<unsigned char> >*, uint8_t)[m[K’
+[12.160s]    53 |             void SendMessage(uint32_t id, [01;36m[Kstd::vector<uint8_t>* data[m[K, uint8_t length ){
+[12.162s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[12.165s] [01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:48:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >*[m[K’
+[12.168s]    48 |                     SendMessage(ID, [01;31m[KsendData[m[K, LEN);
+[12.171s]       |                                     [01;31m[K^~~~~~~~[m[K
+[12.174s]       |                                     [01;31m[K|[m[K
+[12.177s]       |                                     [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+[12.180s] [01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:53:65:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid CANMessage::SendMessage(uint32_t, std::vector<unsigned char, std::allocator<unsigned char> >*, uint8_t)[m[K’
+[12.183s]    53 |             void SendMessage(uint32_t id, [01;36m[Kstd::vector<uint8_t>* data[m[K, uint8_t length ){
+[12.186s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[12.189s] [01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:[m[K In member function ‘[01m[Kvoid CANMessage::SendMessage(uint32_t, std::vector<unsigned char, std::allocator<unsigned char> >*, uint8_t)[m[K’:
+[12.192s] [01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:59:43:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[Kdata[m[K’, which is of pointer type ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[12.195s]    59 |                 memcpy(message.DATA, data.[01;31m[Kdata[m[K(), length);
+[12.198s]       |                                           [01;31m[K^~~~[m[K
+[22.642s] gmake[2]: *** [CMakeFiles/CAN.dir/build.make:76: CMakeFiles/CAN.dir/src/CANMessaging.cpp.o] Error 1
+[22.643s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/CAN.dir/all] Error 2
+[22.644s] gmake[1]: *** Waiting for unfinished jobs....
+[55.321s] [ 83%] [32m[1mLinking CXX executable object[0m
+[58.482s] [ 83%] Built target object
+[58.487s] gmake: *** [Makefile:146: all] Error 2
+[58.516s] Invoked command in '/home/pi/CANOPS/build/my_main' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4

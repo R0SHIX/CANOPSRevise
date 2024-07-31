@@ -1,0 +1,12 @@
+[0.076s] Invoking command in '/home/pi/CANOPS/build/my_main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target object[0m
+[0.320s] [ 50%] Built target camera
+[0.354s] [ 75%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+[14.884s] [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:[m[K In member function ‘[01m[Kvoid HumanDetector::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[14.884s] [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:44:81:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[14.885s]    44 |                     auto class_id = static_cast<int>(detectionMat.at<float>(i,2)[01;31m[K;[m[K;
+[14.885s]       |                                                                                 [01;31m[K^[m[K
+[25.309s] gmake[2]: *** [CMakeFiles/object.dir/build.make:76: CMakeFiles/object.dir/src/ObjectDetNode.cpp.o] Error 1
+[25.309s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/object.dir/all] Error 2
+[25.311s] gmake: *** [Makefile:146: all] Error 2
+[25.317s] Invoked command in '/home/pi/CANOPS/build/my_main' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4

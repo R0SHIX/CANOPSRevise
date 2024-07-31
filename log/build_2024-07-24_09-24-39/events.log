@@ -1,0 +1,296 @@
+[0.000000] (-) TimerEvent: {}
+[0.001259] (my_main) JobQueued: {'identifier': 'my_main', 'dependencies': OrderedDict()}
+[0.001495] (my_main) JobStarted: {'identifier': 'my_main'}
+[0.068908] (my_main) JobProgress: {'identifier': 'my_main', 'progress': 'cmake'}
+[0.071431] (my_main) JobProgress: {'identifier': 'my_main', 'progress': 'build'}
+[0.074083] (my_main) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CANOPS/build/my_main', '--', '-j4', '-l4'], 'cwd': '/home/pi/CANOPS/build/my_main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/pi'), ('USER', 'pi'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('HUSHLOGIN', 'FALSE'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/CANOPS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('JOURNAL_STREAM', '8:23778'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'linux'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '38dbf72adb5d46d384bae97dce70f472'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/pi/CANOPS/install/my_main'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_VTNR', '1'), ('PWD', '/home/pi/CANOPS/build/my_main'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/CANOPS/install/my_main:/opt/ros/humble')]), 'shell': False}
+[0.097801] (-) TimerEvent: {}
+[0.198665] (-) TimerEvent: {}
+[0.256449] (my_main) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target object\x1b[0m\n'}
+[0.298990] (-) TimerEvent: {}
+[0.316655] (my_main) StdoutLine: {'line': b'[ 50%] Built target camera\n'}
+[0.351202] (my_main) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o\x1b[0m\n'}
+[0.399232] (-) TimerEvent: {}
+[0.500069] (-) TimerEvent: {}
+[0.600889] (-) TimerEvent: {}
+[0.701777] (-) TimerEvent: {}
+[0.802520] (-) TimerEvent: {}
+[0.903253] (-) TimerEvent: {}
+[1.004017] (-) TimerEvent: {}
+[1.104759] (-) TimerEvent: {}
+[1.205487] (-) TimerEvent: {}
+[1.306254] (-) TimerEvent: {}
+[1.406986] (-) TimerEvent: {}
+[1.507841] (-) TimerEvent: {}
+[1.608556] (-) TimerEvent: {}
+[1.709295] (-) TimerEvent: {}
+[1.810045] (-) TimerEvent: {}
+[1.910897] (-) TimerEvent: {}
+[2.011823] (-) TimerEvent: {}
+[2.112679] (-) TimerEvent: {}
+[2.213425] (-) TimerEvent: {}
+[2.314296] (-) TimerEvent: {}
+[2.415100] (-) TimerEvent: {}
+[2.515904] (-) TimerEvent: {}
+[2.616737] (-) TimerEvent: {}
+[2.717561] (-) TimerEvent: {}
+[2.818424] (-) TimerEvent: {}
+[2.919261] (-) TimerEvent: {}
+[3.020089] (-) TimerEvent: {}
+[3.120920] (-) TimerEvent: {}
+[3.221785] (-) TimerEvent: {}
+[3.322571] (-) TimerEvent: {}
+[3.423376] (-) TimerEvent: {}
+[3.524354] (-) TimerEvent: {}
+[3.625185] (-) TimerEvent: {}
+[3.726096] (-) TimerEvent: {}
+[3.826922] (-) TimerEvent: {}
+[3.927854] (-) TimerEvent: {}
+[4.028663] (-) TimerEvent: {}
+[4.129676] (-) TimerEvent: {}
+[4.230584] (-) TimerEvent: {}
+[4.331384] (-) TimerEvent: {}
+[4.432224] (-) TimerEvent: {}
+[4.533034] (-) TimerEvent: {}
+[4.633832] (-) TimerEvent: {}
+[4.734640] (-) TimerEvent: {}
+[4.835607] (-) TimerEvent: {}
+[4.936492] (-) TimerEvent: {}
+[5.037410] (-) TimerEvent: {}
+[5.138306] (-) TimerEvent: {}
+[5.239125] (-) TimerEvent: {}
+[5.339957] (-) TimerEvent: {}
+[5.440751] (-) TimerEvent: {}
+[5.541653] (-) TimerEvent: {}
+[5.642464] (-) TimerEvent: {}
+[5.743335] (-) TimerEvent: {}
+[5.844222] (-) TimerEvent: {}
+[5.945100] (-) TimerEvent: {}
+[6.045905] (-) TimerEvent: {}
+[6.146707] (-) TimerEvent: {}
+[6.247651] (-) TimerEvent: {}
+[6.348642] (-) TimerEvent: {}
+[6.449437] (-) TimerEvent: {}
+[6.550243] (-) TimerEvent: {}
+[6.651078] (-) TimerEvent: {}
+[6.752945] (-) TimerEvent: {}
+[6.853811] (-) TimerEvent: {}
+[6.954799] (-) TimerEvent: {}
+[7.055760] (-) TimerEvent: {}
+[7.156565] (-) TimerEvent: {}
+[7.257387] (-) TimerEvent: {}
+[7.358232] (-) TimerEvent: {}
+[7.459005] (-) TimerEvent: {}
+[7.559866] (-) TimerEvent: {}
+[7.660660] (-) TimerEvent: {}
+[7.761528] (-) TimerEvent: {}
+[7.862400] (-) TimerEvent: {}
+[7.963238] (-) TimerEvent: {}
+[8.064105] (-) TimerEvent: {}
+[8.164950] (-) TimerEvent: {}
+[8.265761] (-) TimerEvent: {}
+[8.366596] (-) TimerEvent: {}
+[8.467471] (-) TimerEvent: {}
+[8.568363] (-) TimerEvent: {}
+[8.669234] (-) TimerEvent: {}
+[8.770067] (-) TimerEvent: {}
+[8.870915] (-) TimerEvent: {}
+[8.971836] (-) TimerEvent: {}
+[9.072650] (-) TimerEvent: {}
+[9.173496] (-) TimerEvent: {}
+[9.274402] (-) TimerEvent: {}
+[9.375250] (-) TimerEvent: {}
+[9.476098] (-) TimerEvent: {}
+[9.576900] (-) TimerEvent: {}
+[9.677717] (-) TimerEvent: {}
+[9.778568] (-) TimerEvent: {}
+[9.879424] (-) TimerEvent: {}
+[9.980272] (-) TimerEvent: {}
+[10.081062] (-) TimerEvent: {}
+[10.181854] (-) TimerEvent: {}
+[10.282699] (-) TimerEvent: {}
+[10.383562] (-) TimerEvent: {}
+[10.484426] (-) TimerEvent: {}
+[10.585250] (-) TimerEvent: {}
+[10.686051] (-) TimerEvent: {}
+[10.786962] (-) TimerEvent: {}
+[10.887903] (-) TimerEvent: {}
+[10.988681] (-) TimerEvent: {}
+[11.089513] (-) TimerEvent: {}
+[11.190327] (-) TimerEvent: {}
+[11.291181] (-) TimerEvent: {}
+[11.392004] (-) TimerEvent: {}
+[11.492813] (-) TimerEvent: {}
+[11.593645] (-) TimerEvent: {}
+[11.694630] (-) TimerEvent: {}
+[11.795453] (-) TimerEvent: {}
+[11.896372] (-) TimerEvent: {}
+[11.997176] (-) TimerEvent: {}
+[12.098033] (-) TimerEvent: {}
+[12.198842] (-) TimerEvent: {}
+[12.299669] (-) TimerEvent: {}
+[12.400525] (-) TimerEvent: {}
+[12.501354] (-) TimerEvent: {}
+[12.602312] (-) TimerEvent: {}
+[12.703146] (-) TimerEvent: {}
+[12.804030] (-) TimerEvent: {}
+[12.904810] (-) TimerEvent: {}
+[13.005627] (-) TimerEvent: {}
+[13.106517] (-) TimerEvent: {}
+[13.207297] (-) TimerEvent: {}
+[13.308196] (-) TimerEvent: {}
+[13.409062] (-) TimerEvent: {}
+[13.509973] (-) TimerEvent: {}
+[13.610824] (-) TimerEvent: {}
+[13.711761] (-) TimerEvent: {}
+[13.812554] (-) TimerEvent: {}
+[13.913339] (-) TimerEvent: {}
+[14.014139] (-) TimerEvent: {}
+[14.115100] (-) TimerEvent: {}
+[14.215980] (-) TimerEvent: {}
+[14.316860] (-) TimerEvent: {}
+[14.417828] (-) TimerEvent: {}
+[14.518661] (-) TimerEvent: {}
+[14.619518] (-) TimerEvent: {}
+[14.653204] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[14.654116] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[14.654539] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[14.654939] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[14.655302] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[14.655655] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[14.656112] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[14.656495] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[14.656850] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[14.657210] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[14.657576] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[14.657925] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:3\x1b[m\x1b[K:\n'}
+[14.658267] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HumanDetector::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.658611] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:44:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.658959] (my_main) StderrLine: {'line': b'   44 |                     RCLCPP_INFO(this->get_logger(), \x1b[01;31m\x1b[Kconfidence\x1b[m\x1b[K);\n'}
+[14.659303] (my_main) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.659659] (my_main) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[14.660161] (my_main) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K\n'}
+[14.660517] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rmw/rmw/types.h:28\x1b[m\x1b[K,\n'}
+[14.660847] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/types.h:20\x1b[m\x1b[K,\n'}
+[14.661183] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/log_level.h:22\x1b[m\x1b[K,\n'}
+[14.661520] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/arguments.h:21\x1b[m\x1b[K,\n'}
+[14.661863] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/context.h:28\x1b[m\x1b[K,\n'}
+[14.662204] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26\x1b[m\x1b[K,\n'}
+[14.662542] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30\x1b[m\x1b[K,\n'}
+[14.662966] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[14.663320] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[14.663675] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[14.664107] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:3\x1b[m\x1b[K:\n'}
+[14.664454] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 4 of \xe2\x80\x98\x1b[01m\x1b[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.664864] (my_main) StderrLine: {'line': b'  479 |   \x1b[01;36m\x1b[Kconst char * format\x1b[m\x1b[K,\n'}
+[14.665216] (my_main) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[14.719767] (-) TimerEvent: {}
+[14.820602] (-) TimerEvent: {}
+[14.921429] (-) TimerEvent: {}
+[15.022257] (-) TimerEvent: {}
+[15.123123] (-) TimerEvent: {}
+[15.224001] (-) TimerEvent: {}
+[15.324815] (-) TimerEvent: {}
+[15.425646] (-) TimerEvent: {}
+[15.526505] (-) TimerEvent: {}
+[15.627340] (-) TimerEvent: {}
+[15.728210] (-) TimerEvent: {}
+[15.829031] (-) TimerEvent: {}
+[15.929916] (-) TimerEvent: {}
+[16.030758] (-) TimerEvent: {}
+[16.131601] (-) TimerEvent: {}
+[16.232524] (-) TimerEvent: {}
+[16.333406] (-) TimerEvent: {}
+[16.434267] (-) TimerEvent: {}
+[16.535094] (-) TimerEvent: {}
+[16.635923] (-) TimerEvent: {}
+[16.736768] (-) TimerEvent: {}
+[16.837606] (-) TimerEvent: {}
+[16.938464] (-) TimerEvent: {}
+[17.039290] (-) TimerEvent: {}
+[17.140165] (-) TimerEvent: {}
+[17.241097] (-) TimerEvent: {}
+[17.341931] (-) TimerEvent: {}
+[17.442745] (-) TimerEvent: {}
+[17.543570] (-) TimerEvent: {}
+[17.644454] (-) TimerEvent: {}
+[17.745354] (-) TimerEvent: {}
+[17.846225] (-) TimerEvent: {}
+[17.947075] (-) TimerEvent: {}
+[18.047907] (-) TimerEvent: {}
+[18.148761] (-) TimerEvent: {}
+[18.249592] (-) TimerEvent: {}
+[18.350449] (-) TimerEvent: {}
+[18.451282] (-) TimerEvent: {}
+[18.552144] (-) TimerEvent: {}
+[18.652967] (-) TimerEvent: {}
+[18.753785] (-) TimerEvent: {}
+[18.854656] (-) TimerEvent: {}
+[18.955469] (-) TimerEvent: {}
+[19.056355] (-) TimerEvent: {}
+[19.157139] (-) TimerEvent: {}
+[19.257949] (-) TimerEvent: {}
+[19.358802] (-) TimerEvent: {}
+[19.459651] (-) TimerEvent: {}
+[19.560650] (-) TimerEvent: {}
+[19.661489] (-) TimerEvent: {}
+[19.762306] (-) TimerEvent: {}
+[19.863160] (-) TimerEvent: {}
+[19.964035] (-) TimerEvent: {}
+[20.064882] (-) TimerEvent: {}
+[20.165720] (-) TimerEvent: {}
+[20.266560] (-) TimerEvent: {}
+[20.367411] (-) TimerEvent: {}
+[20.468298] (-) TimerEvent: {}
+[20.569129] (-) TimerEvent: {}
+[20.669978] (-) TimerEvent: {}
+[20.770808] (-) TimerEvent: {}
+[20.871669] (-) TimerEvent: {}
+[20.972528] (-) TimerEvent: {}
+[21.073350] (-) TimerEvent: {}
+[21.174159] (-) TimerEvent: {}
+[21.274956] (-) TimerEvent: {}
+[21.375834] (-) TimerEvent: {}
+[21.476638] (-) TimerEvent: {}
+[21.577443] (-) TimerEvent: {}
+[21.678263] (-) TimerEvent: {}
+[21.779101] (-) TimerEvent: {}
+[21.880009] (-) TimerEvent: {}
+[21.980907] (-) TimerEvent: {}
+[22.082037] (-) TimerEvent: {}
+[22.182858] (-) TimerEvent: {}
+[22.283735] (-) TimerEvent: {}
+[22.384555] (-) TimerEvent: {}
+[22.485366] (-) TimerEvent: {}
+[22.586221] (-) TimerEvent: {}
+[22.687057] (-) TimerEvent: {}
+[22.787876] (-) TimerEvent: {}
+[22.888685] (-) TimerEvent: {}
+[22.989533] (-) TimerEvent: {}
+[23.090469] (-) TimerEvent: {}
+[23.191372] (-) TimerEvent: {}
+[23.292291] (-) TimerEvent: {}
+[23.393193] (-) TimerEvent: {}
+[23.494072] (-) TimerEvent: {}
+[23.594988] (-) TimerEvent: {}
+[23.695877] (-) TimerEvent: {}
+[23.796818] (-) TimerEvent: {}
+[23.897624] (-) TimerEvent: {}
+[23.998385] (-) TimerEvent: {}
+[24.099187] (-) TimerEvent: {}
+[24.200031] (-) TimerEvent: {}
+[24.300870] (-) TimerEvent: {}
+[24.401712] (-) TimerEvent: {}
+[24.502602] (-) TimerEvent: {}
+[24.603572] (-) TimerEvent: {}
+[24.704509] (-) TimerEvent: {}
+[24.805357] (-) TimerEvent: {}
+[24.906377] (-) TimerEvent: {}
+[24.951158] (my_main) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/object.dir/build.make:76: CMakeFiles/object.dir/src/ObjectDetNode.cpp.o] Error 1\n'}
+[24.952090] (my_main) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/object.dir/all] Error 2\n'}
+[24.953044] (my_main) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[24.959145] (my_main) CommandEnded: {'returncode': 2}
+[25.006519] (-) TimerEvent: {}
+[25.107341] (-) TimerEvent: {}
+[25.156933] (my_main) JobEnded: {'identifier': 'my_main', 'rc': 2}
+[25.203427] (-) EventReactorShutdown: {}

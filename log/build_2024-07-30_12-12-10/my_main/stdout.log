@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target CAN[0m
+[35m[1mConsolidate compiler generated dependencies of target object[0m
+[ 33%] Built target camera
+[ 50%] [32mBuilding CXX object CMakeFiles/CAN.dir/src/CANMessaging.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m

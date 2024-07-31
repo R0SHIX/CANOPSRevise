@@ -1,0 +1,34 @@
+[0.076s] Invoking command in '/home/pi/CANOPS/build/my_main': /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4
+[0.766s] [ 50%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+[0.767s] [ 50%] [32mBuilding CXX object CMakeFiles/camera.dir/src/cameraNode.cpp.o[0m
+[19.173s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[19.175s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[19.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[19.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[19.177s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[19.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[19.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[19.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[19.180s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[19.180s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[19.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[19.181s]                  from [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:3[m[K:
+[19.182s] [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:[m[K In member function ‘[01m[Kvoid HumanDetector::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[19.183s] [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:58:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfidence[m[K’ was not declared in this scope
+[19.183s]    58 |                 RCLCPP_INFO(this->get_logger(), "Confidence Level: %.2f",  [01;31m[Kconfidence[m[K);
+[19.184s]       |                                                                            [01;31m[K^~~~~~~~~~[m[K
+[19.184s] [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[19.185s] [01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:65:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+[19.186s]    65 |     rclcpp::init(argc, argv)
+[19.186s]       |                             [01;31m[K^[m[K
+[19.187s]       |                             [32m[K;[m[K
+[19.187s]    66 | 
+[19.188s]    67 |     [32m[Krclcpp[m[K::spin(std::make_shared<HumanDetector>());
+[19.189s]       |     [32m[K~~~~~~[m[K                   
+[31.051s] gmake[2]: *** [CMakeFiles/object.dir/build.make:76: CMakeFiles/object.dir/src/ObjectDetNode.cpp.o] Error 1
+[31.060s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/object.dir/all] Error 2
+[31.060s] gmake[1]: *** Waiting for unfinished jobs....
+[36.274s] [ 75%] [32m[1mLinking CXX executable camera[0m
+[39.876s] [ 75%] Built target camera
+[39.881s] gmake: *** [Makefile:146: all] Error 2
+[39.917s] Invoked command in '/home/pi/CANOPS/build/my_main' returned '2': /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4

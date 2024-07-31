@@ -1,0 +1,14 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/camera.dir/src/cameraNode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:[m[K In member function ‘[01m[Kvoid HumanDetector::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:44:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   44 |                         int [01;35m[Kidx[m[K = static_cast<int>(detectionMat.at<float>(i,1));
+      |                             [01;35m[K^~~[m[K
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:62:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+   62 |     rclcpp::init(argc, argv)
+      |                             [01;31m[K^[m[K
+      |                             [32m[K;[m[K
+   63 | 
+   64 |     [32m[Krclcpp[m[K::spin(std::make_shared<HumanDetector>());
+      |     [32m[K~~~~~~[m[K                   

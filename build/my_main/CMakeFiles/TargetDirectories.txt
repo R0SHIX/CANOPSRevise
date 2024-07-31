@@ -1,0 +1,12 @@
+/home/pi/CANOPS/build/my_main/CMakeFiles/uninstall.dir
+/home/pi/CANOPS/build/my_main/CMakeFiles/my_main_uninstall.dir
+/home/pi/CANOPS/build/my_main/CMakeFiles/camera.dir
+/home/pi/CANOPS/build/my_main/CMakeFiles/object.dir
+/home/pi/CANOPS/build/my_main/CMakeFiles/can.dir
+/home/pi/CANOPS/build/my_main/CMakeFiles/test.dir
+/home/pi/CANOPS/build/my_main/CMakeFiles/edit_cache.dir
+/home/pi/CANOPS/build/my_main/CMakeFiles/rebuild_cache.dir
+/home/pi/CANOPS/build/my_main/CMakeFiles/list_install_components.dir
+/home/pi/CANOPS/build/my_main/CMakeFiles/install.dir
+/home/pi/CANOPS/build/my_main/CMakeFiles/install/local.dir
+/home/pi/CANOPS/build/my_main/CMakeFiles/install/strip.dir

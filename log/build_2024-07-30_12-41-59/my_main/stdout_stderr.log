@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target object[0m
+[35m[1mConsolidate compiler generated dependencies of target CAN[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/CAN.dir/src/CANMessaging.cpp.o[0m
+[ 50%] Built target camera
+[ 83%] Built target object
+[01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:[m[K In member function ‘[01m[Kvoid CANMessage::detect_callback(const Bool&)[m[K’:
+[01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:36:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+   36 |                     SendMessage(ID, [01;31m[KsendData[m[K, LEN);
+      |                                     [01;31m[K^~~~~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+[01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:53:52:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid CANMessage::SendMessage(uint32_t, uint8_t*, uint8_t)[m[K’
+   53 |             void SendMessage(uint32_t id, [01;36m[Kuint8_t* data[m[K, uint8_t length ){
+      |                                           [01;36m[K~~~~~~~~~^~~~[m[K
+[01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:40:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+   40 |                     SendMessage(ID, [01;31m[KsendData[m[K, LEN);
+      |                                     [01;31m[K^~~~~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+[01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:53:52:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid CANMessage::SendMessage(uint32_t, uint8_t*, uint8_t)[m[K’
+   53 |             void SendMessage(uint32_t id, [01;36m[Kuint8_t* data[m[K, uint8_t length ){
+      |                                           [01;36m[K~~~~~~~~~^~~~[m[K
+[01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:44:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+   44 |                     SendMessage(ID, [01;31m[KsendData[m[K, LEN);
+      |                                     [01;31m[K^~~~~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+[01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:53:52:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid CANMessage::SendMessage(uint32_t, uint8_t*, uint8_t)[m[K’
+   53 |             void SendMessage(uint32_t id, [01;36m[Kuint8_t* data[m[K, uint8_t length ){
+      |                                           [01;36m[K~~~~~~~~~^~~~[m[K
+[01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:48:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+   48 |                     SendMessage(ID, [01;31m[KsendData[m[K, LEN);
+      |                                     [01;31m[K^~~~~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+[01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:53:52:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid CANMessage::SendMessage(uint32_t, uint8_t*, uint8_t)[m[K’
+   53 |             void SendMessage(uint32_t id, [01;36m[Kuint8_t* data[m[K, uint8_t length ){
+      |                                           [01;36m[K~~~~~~~~~^~~~[m[K
+[01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:[m[K In member function ‘[01m[Kvoid CANMessage::SendMessage(uint32_t, uint8_t*, uint8_t)[m[K’:
+[01m[K/home/pi/CANOPS/src/my_main/src/CANMessaging.cpp:59:43:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[Kdata[m[K’, which is of non-class type ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+   59 |                 memcpy(message.DATA, data.[01;31m[Kdata[m[K(), length);
+      |                                           [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/CAN.dir/build.make:76: CMakeFiles/CAN.dir/src/CANMessaging.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/CAN.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

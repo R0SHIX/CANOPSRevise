@@ -1,0 +1,2 @@
+Invoking command in '/home/pi/CANOPS/build/my_main': /usr/bin/cmake /home/pi/CANOPS/src/my_main -DCMAKE_INSTALL_PREFIX=/home/pi/CANOPS/install/my_main
+Invoked command in '/home/pi/CANOPS/build/my_main' returned '1': /usr/bin/cmake /home/pi/CANOPS/src/my_main -DCMAKE_INSTALL_PREFIX=/home/pi/CANOPS/install/my_main

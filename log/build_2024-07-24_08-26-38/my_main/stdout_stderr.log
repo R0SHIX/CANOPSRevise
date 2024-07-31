@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target object[0m
+[35m[1mConsolidate compiler generated dependencies of target camera[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+[ 75%] Built target camera
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:[m[K In member function ‘[01m[Kvoid HumanDetector::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+   43 |                     if (confidence > 0.2)i[01;31m[K{[m[K
+      |                                           [01;31m[K^[m[K
+[01m[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:42:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   43 |                     if (confidence > 0.2)[01;35m[Ki[m[K{
+      |                                          [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/object.dir/build.make:76: CMakeFiles/object.dir/src/ObjectDetNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/object.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,3 @@
+Invoking command in '/home/pi/CANOPS/build/my_main': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/CANOPS/src/my_main -DCMAKE_INSTALL_PREFIX=/home/pi/CANOPS/install/my_main
+Invoked command in '/home/pi/CANOPS/build/my_main' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/CANOPS/src/my_main -DCMAKE_INSTALL_PREFIX=/home/pi/CANOPS/install/my_main
+Invoking command in '/home/pi/CANOPS/build/my_main': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4

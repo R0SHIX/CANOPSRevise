@@ -1,0 +1,45 @@
+[0.099s] Invoking command in '/home/pi/CANOPS/build/my_main': /usr/bin/cmake /home/pi/CANOPS/src/my_main -DCMAKE_INSTALL_PREFIX=/home/pi/CANOPS/install/my_main
+[0.385s] -- The C compiler identification is GNU 11.4.0
+[0.654s] -- The CXX compiler identification is GNU 11.4.0
+[0.686s] -- Detecting C compiler ABI info
+[1.019s] -- Detecting C compiler ABI info - done
+[1.045s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.046s] -- Detecting C compile features
+[1.048s] -- Detecting C compile features - done
+[1.059s] -- Detecting CXX compiler ABI info
+[1.433s] -- Detecting CXX compiler ABI info - done
+[1.460s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.461s] -- Detecting CXX compile features
+[1.463s] -- Detecting CXX compile features - done
+[1.481s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.249s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.743s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.005s] Error parsing '/home/pi/CANOPS/src/my_main/package.xml':
+[3.214s] Traceback (most recent call last):
+[3.215s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.215s]     main()
+[3.217s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.218s]     raise e
+[3.219s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.220s]     package = parse_package_string(
+[3.221s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[3.222s]     pkg.validate(warnings=warnings)
+[3.223s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[3.224s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[3.225s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/pi/CANOPS/src/my_main/package.xml':
+[3.226s] Invalid email "pi@pi" for person "pi"
+[3.317s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.317s]   execute_process(/usr/bin/python3
+[3.318s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.318s]   /home/pi/CANOPS/src/my_main/package.xml
+[3.318s]   /home/pi/CANOPS/build/my_main/ament_cmake_core/package.cmake) returned
+[3.319s]   error code 1
+[3.319s] Call Stack (most recent call first):
+[3.319s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.320s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[3.320s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[3.320s] 
+[3.321s] [0m
+[3.321s] -- Configuring incomplete, errors occurred!
+[3.322s] See also "/home/pi/CANOPS/build/my_main/CMakeFiles/CMakeOutput.log".
+[3.336s] Invoked command in '/home/pi/CANOPS/build/my_main' returned '1': /usr/bin/cmake /home/pi/CANOPS/src/my_main -DCMAKE_INSTALL_PREFIX=/home/pi/CANOPS/install/my_main

@@ -1,0 +1,10 @@
+[0.084s] Invoking command in '/home/pi/CANOPS/build/my_main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4
+[0.256s] [35m[1mConsolidate compiler generated dependencies of target object[0m
+[0.314s] [ 25%] [32mBuilding CXX object CMakeFiles/camera.dir/src/cameraNode.cpp.o[0m
+[0.352s] [ 50%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+[124.222s] gmake[2]: *** [CMakeFiles/camera.dir/build.make:76: CMakeFiles/camera.dir/src/cameraNode.cpp.o] Interrupt
+[124.233s] gmake[2]: *** [CMakeFiles/object.dir/build.make:76: CMakeFiles/object.dir/src/ObjectDetNode.cpp.o] Interrupt
+[124.234s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/camera.dir/all] Interrupt
+[124.234s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/object.dir/all] Interrupt
+[124.235s] gmake: *** [Makefile:146: all] Interrupt
+[124.253s] Invoked command in '/home/pi/CANOPS/build/my_main' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4

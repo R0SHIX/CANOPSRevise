@@ -1,0 +1,393 @@
+[0.000000] (-) TimerEvent: {}
+[0.001231] (my_main) JobQueued: {'identifier': 'my_main', 'dependencies': OrderedDict()}
+[0.001503] (my_main) JobStarted: {'identifier': 'my_main'}
+[0.068363] (my_main) JobProgress: {'identifier': 'my_main', 'progress': 'cmake'}
+[0.071022] (my_main) JobProgress: {'identifier': 'my_main', 'progress': 'build'}
+[0.073664] (my_main) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CANOPS/build/my_main', '--', '-j4', '-l4'], 'cwd': '/home/pi/CANOPS/build/my_main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/pi'), ('USER', 'pi'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/CANOPS/src/my_main/src'), ('HUSHLOGIN', 'FALSE'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/CANOPS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('JOURNAL_STREAM', '8:23778'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'linux'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '38dbf72adb5d46d384bae97dce70f472'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/pi/CANOPS/install/my_main'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_VTNR', '1'), ('PWD', '/home/pi/CANOPS/build/my_main'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/CANOPS/install/my_main:/opt/ros/humble')]), 'shell': False}
+[0.098116] (-) TimerEvent: {}
+[0.198906] (-) TimerEvent: {}
+[0.249868] (my_main) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target object\x1b[0m\n'}
+[0.250760] (my_main) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera\x1b[0m\n'}
+[0.299108] (-) TimerEvent: {}
+[0.343089] (my_main) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o\x1b[0m\n'}
+[0.344114] (my_main) StdoutLine: {'line': b'[ 75%] Built target camera\n'}
+[0.399293] (-) TimerEvent: {}
+[0.500046] (-) TimerEvent: {}
+[0.600922] (-) TimerEvent: {}
+[0.701754] (-) TimerEvent: {}
+[0.802951] (-) TimerEvent: {}
+[0.903696] (-) TimerEvent: {}
+[1.004433] (-) TimerEvent: {}
+[1.105235] (-) TimerEvent: {}
+[1.205991] (-) TimerEvent: {}
+[1.306772] (-) TimerEvent: {}
+[1.407503] (-) TimerEvent: {}
+[1.508225] (-) TimerEvent: {}
+[1.609030] (-) TimerEvent: {}
+[1.709811] (-) TimerEvent: {}
+[1.810560] (-) TimerEvent: {}
+[1.911377] (-) TimerEvent: {}
+[2.012197] (-) TimerEvent: {}
+[2.113155] (-) TimerEvent: {}
+[2.214088] (-) TimerEvent: {}
+[2.314946] (-) TimerEvent: {}
+[2.415774] (-) TimerEvent: {}
+[2.516617] (-) TimerEvent: {}
+[2.617530] (-) TimerEvent: {}
+[2.718497] (-) TimerEvent: {}
+[2.819394] (-) TimerEvent: {}
+[2.920314] (-) TimerEvent: {}
+[3.021129] (-) TimerEvent: {}
+[3.121906] (-) TimerEvent: {}
+[3.222740] (-) TimerEvent: {}
+[3.323598] (-) TimerEvent: {}
+[3.424449] (-) TimerEvent: {}
+[3.525294] (-) TimerEvent: {}
+[3.626254] (-) TimerEvent: {}
+[3.727178] (-) TimerEvent: {}
+[3.828038] (-) TimerEvent: {}
+[3.928872] (-) TimerEvent: {}
+[4.029701] (-) TimerEvent: {}
+[4.130554] (-) TimerEvent: {}
+[4.231392] (-) TimerEvent: {}
+[4.332196] (-) TimerEvent: {}
+[4.433049] (-) TimerEvent: {}
+[4.533913] (-) TimerEvent: {}
+[4.634772] (-) TimerEvent: {}
+[4.735621] (-) TimerEvent: {}
+[4.836420] (-) TimerEvent: {}
+[4.937273] (-) TimerEvent: {}
+[5.038176] (-) TimerEvent: {}
+[5.139137] (-) TimerEvent: {}
+[5.240028] (-) TimerEvent: {}
+[5.340861] (-) TimerEvent: {}
+[5.441701] (-) TimerEvent: {}
+[5.542547] (-) TimerEvent: {}
+[5.643491] (-) TimerEvent: {}
+[5.744312] (-) TimerEvent: {}
+[5.845145] (-) TimerEvent: {}
+[5.946055] (-) TimerEvent: {}
+[6.046978] (-) TimerEvent: {}
+[6.147800] (-) TimerEvent: {}
+[6.248593] (-) TimerEvent: {}
+[6.349513] (-) TimerEvent: {}
+[6.450362] (-) TimerEvent: {}
+[6.551246] (-) TimerEvent: {}
+[6.652069] (-) TimerEvent: {}
+[6.752898] (-) TimerEvent: {}
+[6.853691] (-) TimerEvent: {}
+[6.954583] (-) TimerEvent: {}
+[7.055672] (-) TimerEvent: {}
+[7.156491] (-) TimerEvent: {}
+[7.257308] (-) TimerEvent: {}
+[7.358074] (-) TimerEvent: {}
+[7.458898] (-) TimerEvent: {}
+[7.559716] (-) TimerEvent: {}
+[7.660599] (-) TimerEvent: {}
+[7.761450] (-) TimerEvent: {}
+[7.862434] (-) TimerEvent: {}
+[7.963308] (-) TimerEvent: {}
+[8.064103] (-) TimerEvent: {}
+[8.164887] (-) TimerEvent: {}
+[8.265733] (-) TimerEvent: {}
+[8.366613] (-) TimerEvent: {}
+[8.467492] (-) TimerEvent: {}
+[8.568343] (-) TimerEvent: {}
+[8.669255] (-) TimerEvent: {}
+[8.770162] (-) TimerEvent: {}
+[8.871018] (-) TimerEvent: {}
+[8.971833] (-) TimerEvent: {}
+[9.072640] (-) TimerEvent: {}
+[9.173522] (-) TimerEvent: {}
+[9.274389] (-) TimerEvent: {}
+[9.375241] (-) TimerEvent: {}
+[9.476027] (-) TimerEvent: {}
+[9.576830] (-) TimerEvent: {}
+[9.677630] (-) TimerEvent: {}
+[9.778482] (-) TimerEvent: {}
+[9.879341] (-) TimerEvent: {}
+[9.980147] (-) TimerEvent: {}
+[10.080934] (-) TimerEvent: {}
+[10.181780] (-) TimerEvent: {}
+[10.282701] (-) TimerEvent: {}
+[10.383535] (-) TimerEvent: {}
+[10.484351] (-) TimerEvent: {}
+[10.585173] (-) TimerEvent: {}
+[10.686058] (-) TimerEvent: {}
+[10.786917] (-) TimerEvent: {}
+[10.887739] (-) TimerEvent: {}
+[10.988582] (-) TimerEvent: {}
+[11.089433] (-) TimerEvent: {}
+[11.190321] (-) TimerEvent: {}
+[11.291187] (-) TimerEvent: {}
+[11.392030] (-) TimerEvent: {}
+[11.492942] (-) TimerEvent: {}
+[11.593769] (-) TimerEvent: {}
+[11.694594] (-) TimerEvent: {}
+[11.795590] (-) TimerEvent: {}
+[11.896820] (-) TimerEvent: {}
+[11.997738] (-) TimerEvent: {}
+[12.098551] (-) TimerEvent: {}
+[12.199433] (-) TimerEvent: {}
+[12.300255] (-) TimerEvent: {}
+[12.401102] (-) TimerEvent: {}
+[12.501979] (-) TimerEvent: {}
+[12.602896] (-) TimerEvent: {}
+[12.704019] (-) TimerEvent: {}
+[12.805012] (-) TimerEvent: {}
+[12.905927] (-) TimerEvent: {}
+[13.006837] (-) TimerEvent: {}
+[13.107635] (-) TimerEvent: {}
+[13.208473] (-) TimerEvent: {}
+[13.309291] (-) TimerEvent: {}
+[13.410128] (-) TimerEvent: {}
+[13.511007] (-) TimerEvent: {}
+[13.611824] (-) TimerEvent: {}
+[13.712778] (-) TimerEvent: {}
+[13.813645] (-) TimerEvent: {}
+[13.914688] (-) TimerEvent: {}
+[14.015447] (-) TimerEvent: {}
+[14.116348] (-) TimerEvent: {}
+[14.217143] (-) TimerEvent: {}
+[14.317978] (-) TimerEvent: {}
+[14.418821] (-) TimerEvent: {}
+[14.519607] (-) TimerEvent: {}
+[14.620490] (-) TimerEvent: {}
+[14.664375] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HumanDetector::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.665458] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 not permitted in template argument\n'}
+[14.667810] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = detectionMat.at<\x1b[01;31m\x1b[Kauto\x1b[m\x1b[K>(i,1);\n'}
+[14.668363] (my_main) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[14.668719] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::at<<expression error> >(int&, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.669067] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.669425] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.669764] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.670104] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.670439] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.670817] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1921:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp& cv::Mat::at(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.671198] (my_main) StderrLine: {'line': b' 1921 |     template<typename _Tp> _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(int i0=0);\n'}
+[14.671591] (my_main) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.671930] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1921:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.672277] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.672628] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.672981] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.673319] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.673653] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.673998] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.674336] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1925:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp& cv::Mat::at(int) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.674902] (my_main) StderrLine: {'line': b' 1925 |     template<typename _Tp> const _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(int i0=0) const;\n'}
+[14.675329] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.675656] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1925:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.675993] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.676367] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.676716] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.677048] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.677391] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.677720] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.678053] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1930:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp& cv::Mat::at(int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.678465] (my_main) StderrLine: {'line': b' 1930 |     template<typename _Tp> _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(int row, int col);\n'}
+[14.678989] (my_main) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.679376] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1930:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.679744] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.680096] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.680452] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.680871] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.681271] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.681636] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.682059] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1935:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp& cv::Mat::at(int, int) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.682427] (my_main) StderrLine: {'line': b' 1935 |     template<typename _Tp> const _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(int row, int col) const;\n'}
+[14.682865] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.683251] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1935:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.683617] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.683967] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.684432] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.684796] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.685160] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.685523] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.685891] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1942:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp& cv::Mat::at(int, int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.686291] (my_main) StderrLine: {'line': b' 1942 |     template<typename _Tp> _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(int i0, int i1, int i2);\n'}
+[14.686705] (my_main) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.687107] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1942:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.687499] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.688064] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.688689] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.689226] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.689837] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.690236] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.690584] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1948:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp& cv::Mat::at(int, int, int) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.691054] (my_main) StderrLine: {'line': b' 1948 |     template<typename _Tp> const _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(int i0, int i1, int i2) const;\n'}
+[14.691410] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.691758] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1948:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.692106] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.692457] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.692813] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.693157] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.693546] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.693902] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.694311] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1953:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp& cv::Mat::at(const int*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.694705] (my_main) StderrLine: {'line': b' 1953 |     template<typename _Tp> _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(const int* idx);\n'}
+[14.695096] (my_main) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.695422] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1953:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.695768] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.696175] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.696528] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.696933] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.697277] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.697624] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.698016] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1957:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp& cv::Mat::at(const int*) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.698364] (my_main) StderrLine: {'line': b' 1957 |     template<typename _Tp> const _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(const int* idx) const;\n'}
+[14.698761] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.699143] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1957:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.699499] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.699866] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.700222] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.700563] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.700956] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.701296] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.701634] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1960:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, int n> _Tp& cv::Mat::at(const cv::Vec<int, n>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.701973] (my_main) StderrLine: {'line': b' 1960 |     template<typename _Tp, int n> _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(const Vec<int, n>& idx);\n'}
+[14.702311] (my_main) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.702698] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1960:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.703149] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.703513] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.703866] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.704195] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.704524] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.704850] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.705173] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1962:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, int n> const _Tp& cv::Mat::at(const cv::Vec<int, n>&) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.705522] (my_main) StderrLine: {'line': b' 1962 |     template<typename _Tp, int n> const _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(const Vec<int, n>& idx) const;\n'}
+[14.705909] (my_main) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.706246] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1962:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.706640] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.707074] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.707410] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.707753] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.708093] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.708435] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.708772] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1968:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp& cv::Mat::at(cv::Point)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.709119] (my_main) StderrLine: {'line': b' 1968 |     template<typename _Tp> _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(Point pt);\n'}
+[14.709449] (my_main) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.709790] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1968:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.710394] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.710911] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.711286] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.711692] (my_main) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[14.712103] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/dnn/dnn.hpp:46\x1b[m\x1b[K,\n'}
+[14.712455] (my_main) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:6\x1b[m\x1b[K:\n'}
+[14.712862] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1973:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp& cv::Mat::at(cv::Point) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.713229] (my_main) StderrLine: {'line': b' 1973 |     template<typename _Tp> const _Tp& \x1b[01;36m\x1b[Kat\x1b[m\x1b[K(Point pt) const;\n'}
+[14.713581] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.713917] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1973:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[14.714260] (my_main) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/CANOPS/src/my_main/src/ObjectDetNode.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[14.714604] (my_main) StderrLine: {'line': b'   43 |                     auto confidence = \x1b[01;31m\x1b[KdetectionMat.at<auto>(i,1)\x1b[m\x1b[K;\n'}
+[14.715114] (my_main) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.720674] (-) TimerEvent: {}
+[14.821515] (-) TimerEvent: {}
+[14.922346] (-) TimerEvent: {}
+[15.023209] (-) TimerEvent: {}
+[15.124053] (-) TimerEvent: {}
+[15.224867] (-) TimerEvent: {}
+[15.325721] (-) TimerEvent: {}
+[15.426544] (-) TimerEvent: {}
+[15.527375] (-) TimerEvent: {}
+[15.628199] (-) TimerEvent: {}
+[15.729068] (-) TimerEvent: {}
+[15.829868] (-) TimerEvent: {}
+[15.930724] (-) TimerEvent: {}
+[16.031490] (-) TimerEvent: {}
+[16.132340] (-) TimerEvent: {}
+[16.233191] (-) TimerEvent: {}
+[16.333989] (-) TimerEvent: {}
+[16.434833] (-) TimerEvent: {}
+[16.535617] (-) TimerEvent: {}
+[16.636476] (-) TimerEvent: {}
+[16.737291] (-) TimerEvent: {}
+[16.838093] (-) TimerEvent: {}
+[16.938922] (-) TimerEvent: {}
+[17.039776] (-) TimerEvent: {}
+[17.140578] (-) TimerEvent: {}
+[17.241395] (-) TimerEvent: {}
+[17.342202] (-) TimerEvent: {}
+[17.443026] (-) TimerEvent: {}
+[17.543865] (-) TimerEvent: {}
+[17.644691] (-) TimerEvent: {}
+[17.745525] (-) TimerEvent: {}
+[17.846344] (-) TimerEvent: {}
+[17.947179] (-) TimerEvent: {}
+[18.047952] (-) TimerEvent: {}
+[18.148805] (-) TimerEvent: {}
+[18.249629] (-) TimerEvent: {}
+[18.350457] (-) TimerEvent: {}
+[18.451346] (-) TimerEvent: {}
+[18.552175] (-) TimerEvent: {}
+[18.653009] (-) TimerEvent: {}
+[18.753818] (-) TimerEvent: {}
+[18.854632] (-) TimerEvent: {}
+[18.955517] (-) TimerEvent: {}
+[19.056324] (-) TimerEvent: {}
+[19.157154] (-) TimerEvent: {}
+[19.257969] (-) TimerEvent: {}
+[19.358848] (-) TimerEvent: {}
+[19.459714] (-) TimerEvent: {}
+[19.560537] (-) TimerEvent: {}
+[19.661405] (-) TimerEvent: {}
+[19.762229] (-) TimerEvent: {}
+[19.863133] (-) TimerEvent: {}
+[19.963929] (-) TimerEvent: {}
+[20.064708] (-) TimerEvent: {}
+[20.165470] (-) TimerEvent: {}
+[20.266261] (-) TimerEvent: {}
+[20.367131] (-) TimerEvent: {}
+[20.467916] (-) TimerEvent: {}
+[20.568696] (-) TimerEvent: {}
+[20.669607] (-) TimerEvent: {}
+[20.770938] (-) TimerEvent: {}
+[20.871755] (-) TimerEvent: {}
+[20.972588] (-) TimerEvent: {}
+[21.073393] (-) TimerEvent: {}
+[21.174217] (-) TimerEvent: {}
+[21.275116] (-) TimerEvent: {}
+[21.375907] (-) TimerEvent: {}
+[21.476701] (-) TimerEvent: {}
+[21.577514] (-) TimerEvent: {}
+[21.678377] (-) TimerEvent: {}
+[21.779263] (-) TimerEvent: {}
+[21.880046] (-) TimerEvent: {}
+[21.980839] (-) TimerEvent: {}
+[22.081645] (-) TimerEvent: {}
+[22.182527] (-) TimerEvent: {}
+[22.283371] (-) TimerEvent: {}
+[22.384156] (-) TimerEvent: {}
+[22.484946] (-) TimerEvent: {}
+[22.585775] (-) TimerEvent: {}
+[22.686623] (-) TimerEvent: {}
+[22.787463] (-) TimerEvent: {}
+[22.888341] (-) TimerEvent: {}
+[22.989119] (-) TimerEvent: {}
+[23.089974] (-) TimerEvent: {}
+[23.190820] (-) TimerEvent: {}
+[23.291869] (-) TimerEvent: {}
+[23.392749] (-) TimerEvent: {}
+[23.493637] (-) TimerEvent: {}
+[23.594523] (-) TimerEvent: {}
+[23.695600] (-) TimerEvent: {}
+[23.796857] (-) TimerEvent: {}
+[23.897854] (-) TimerEvent: {}
+[23.998552] (-) TimerEvent: {}
+[24.099322] (-) TimerEvent: {}
+[24.200086] (-) TimerEvent: {}
+[24.300928] (-) TimerEvent: {}
+[24.401844] (-) TimerEvent: {}
+[24.502765] (-) TimerEvent: {}
+[24.603602] (-) TimerEvent: {}
+[24.704459] (-) TimerEvent: {}
+[24.805378] (-) TimerEvent: {}
+[24.906261] (-) TimerEvent: {}
+[24.964945] (my_main) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/object.dir/build.make:76: CMakeFiles/object.dir/src/ObjectDetNode.cpp.o] Error 1\n'}
+[24.965837] (my_main) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/object.dir/all] Error 2\n'}
+[24.966828] (my_main) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[24.972934] (my_main) CommandEnded: {'returncode': 2}
+[25.006465] (-) TimerEvent: {}
+[25.107365] (-) TimerEvent: {}
+[25.167481] (my_main) JobEnded: {'identifier': 'my_main', 'rc': 2}
+[25.394486] (-) TimerEvent: {}
+[25.394894] (-) EventReactorShutdown: {}

@@ -1,0 +1,29 @@
+[0.044s] Invoking command in '/home/pi/CANOPS/build/my_main': /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4
+[0.207s] [35m[1mConsolidate compiler generated dependencies of target object[0m
+[0.265s] [ 50%] Built target camera
+[0.298s] [ 75%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+[47.087s] [100%] [32m[1mLinking CXX executable object[0m
+[49.146s] [100%] Built target object
+[49.181s] Invoked command in '/home/pi/CANOPS/build/my_main' returned '0': /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4
+[49.352s] Invoking command in '/home/pi/CANOPS/build/my_main': /usr/bin/cmake --install /home/pi/CANOPS/build/my_main
+[49.378s] -- Install configuration: ""
+[49.381s] -- Installing: /home/pi/CANOPS/install/my_main/lib/my_main/camera
+[49.386s] -- Set runtime path of "/home/pi/CANOPS/install/my_main/lib/my_main/camera" to ""
+[49.386s] -- Installing: /home/pi/CANOPS/install/my_main/lib/my_main/object
+[49.396s] -- Set runtime path of "/home/pi/CANOPS/install/my_main/lib/my_main/object" to ""
+[49.402s] -- Installing: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/package_run_dependencies/my_main
+[49.405s] -- Installing: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/parent_prefix_path/my_main
+[49.407s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/environment/ament_prefix_path.sh
+[49.409s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/environment/ament_prefix_path.dsv
+[49.411s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/environment/path.sh
+[49.414s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/environment/path.dsv
+[49.416s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.bash
+[49.418s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.sh
+[49.420s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.zsh
+[49.421s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.dsv
+[49.423s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/package.dsv
+[49.425s] -- Installing: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/packages/my_main
+[49.427s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/cmake/my_mainConfig.cmake
+[49.428s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/cmake/my_mainConfig-version.cmake
+[49.430s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/package.xml
+[49.440s] Invoked command in '/home/pi/CANOPS/build/my_main' returned '0': /usr/bin/cmake --install /home/pi/CANOPS/build/my_main

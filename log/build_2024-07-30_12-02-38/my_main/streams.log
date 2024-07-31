@@ -1,0 +1,23 @@
+[0.074s] Invoking command in '/home/pi/CANOPS/build/my_main': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4
+[0.177s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.751s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.929s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.939s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.963s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.007s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.069s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.870s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.055s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.060s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.922s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.450s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[3.451s]   ament_target_dependencies() the passed package name 'pcanbasic' was not
+[3.451s]   found before
+[3.452s] Call Stack (most recent call first):
+[3.452s]   CMakeLists.txt:34 (ament_target_dependencies)
+[3.452s] 
+[3.453s] [0m
+[3.453s] -- Configuring incomplete, errors occurred!
+[3.454s] See also "/home/pi/CANOPS/build/my_main/CMakeFiles/CMakeOutput.log".
+[3.478s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[3.484s] Invoked command in '/home/pi/CANOPS/build/my_main' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4

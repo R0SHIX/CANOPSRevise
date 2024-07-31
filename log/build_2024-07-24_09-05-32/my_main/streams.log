@@ -1,0 +1,32 @@
+[0.118s] Invoking command in '/home/pi/CANOPS/build/my_main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4
+[0.650s] [ 25%] [32mBuilding CXX object CMakeFiles/camera.dir/src/cameraNode.cpp.o[0m
+[47.687s] [ 50%] [32m[1mLinking CXX executable camera[0m
+[55.645s] [ 50%] Built target camera
+[55.806s] [ 75%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+[108.120s] [100%] [32m[1mLinking CXX executable object[0m
+[109.898s] [100%] Built target object
+[109.935s] Invoked command in '/home/pi/CANOPS/build/my_main' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4
+[110.124s] Invoking command in '/home/pi/CANOPS/build/my_main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/CANOPS/build/my_main
+[110.155s] -- Install configuration: ""
+[110.160s] -- Installing: /home/pi/CANOPS/install/my_main/lib/my_main/camera
+[110.166s] -- Set runtime path of "/home/pi/CANOPS/install/my_main/lib/my_main/camera" to ""
+[110.169s] -- Installing: /home/pi/CANOPS/install/my_main/lib/my_main/object
+[110.178s] -- Set runtime path of "/home/pi/CANOPS/install/my_main/lib/my_main/object" to ""
+[110.179s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/launch
+[110.183s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/launch/camera.launch.py
+[110.184s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/package_run_dependencies/my_main
+[110.184s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/parent_prefix_path/my_main
+[110.185s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/environment/ament_prefix_path.sh
+[110.185s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/environment/ament_prefix_path.dsv
+[110.186s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/environment/path.sh
+[110.186s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/environment/path.dsv
+[110.187s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.bash
+[110.187s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.sh
+[110.187s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.zsh
+[110.188s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.dsv
+[110.188s] -- Installing: /home/pi/CANOPS/install/my_main/share/my_main/package.dsv
+[110.190s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/packages/my_main
+[110.190s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/cmake/my_mainConfig.cmake
+[110.191s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/cmake/my_mainConfig-version.cmake
+[110.191s] -- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/package.xml
+[110.201s] Invoked command in '/home/pi/CANOPS/build/my_main' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/CANOPS/build/my_main

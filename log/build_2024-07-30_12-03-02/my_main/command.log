@@ -1,0 +1,1 @@
+Invoking command in '/home/pi/CANOPS/build/my_main': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/CANOPS/build/my_main -- -j4 -l4

@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.001505] (my_main) JobQueued: {'identifier': 'my_main', 'dependencies': OrderedDict()}
+[0.002035] (my_main) JobStarted: {'identifier': 'my_main'}
+[0.069376] (my_main) JobProgress: {'identifier': 'my_main', 'progress': 'cmake'}
+[0.071947] (my_main) JobProgress: {'identifier': 'my_main', 'progress': 'build'}
+[0.074552] (my_main) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/CANOPS/build/my_main', '--', '-j4', '-l4'], 'cwd': '/home/pi/CANOPS/build/my_main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/pi'), ('USER', 'pi'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/CANOPS/src/my_main'), ('HUSHLOGIN', 'FALSE'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/CANOPS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('JOURNAL_STREAM', '8:23778'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'linux'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '38dbf72adb5d46d384bae97dce70f472'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/pi/CANOPS/install/my_main'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_VTNR', '1'), ('PWD', '/home/pi/CANOPS/build/my_main'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/CANOPS/install/my_main:/opt/ros/humble')]), 'shell': False}
+[0.099078] (-) TimerEvent: {}
+[0.199873] (-) TimerEvent: {}
+[0.216852] (my_main) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300043] (-) TimerEvent: {}
+[0.400827] (-) TimerEvent: {}
+[0.501464] (-) TimerEvent: {}
+[0.602229] (-) TimerEvent: {}
+[0.702996] (-) TimerEvent: {}
+[0.803902] (-) TimerEvent: {}
+[0.905403] (-) TimerEvent: {}
+[0.911374] (my_main) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.005579] (-) TimerEvent: {}
+[1.106476] (-) TimerEvent: {}
+[1.156505] (my_main) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.175290] (my_main) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.206713] (-) TimerEvent: {}
+[1.216288] (my_main) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.284750] (my_main) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.306888] (-) TimerEvent: {}
+[1.379010] (my_main) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.407117] (-) TimerEvent: {}
+[1.507908] (-) TimerEvent: {}
+[1.608676] (-) TimerEvent: {}
+[1.709549] (-) TimerEvent: {}
+[1.810323] (-) TimerEvent: {}
+[1.911183] (-) TimerEvent: {}
+[2.011898] (-) TimerEvent: {}
+[2.112667] (-) TimerEvent: {}
+[2.213397] (-) TimerEvent: {}
+[2.287869] (my_main) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.313597] (-) TimerEvent: {}
+[2.414379] (-) TimerEvent: {}
+[2.515123] (-) TimerEvent: {}
+[2.538757] (my_main) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.550222] (my_main) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.615306] (-) TimerEvent: {}
+[2.716181] (-) TimerEvent: {}
+[2.816984] (-) TimerEvent: {}
+[2.917763] (-) TimerEvent: {}
+[3.018693] (-) TimerEvent: {}
+[3.119461] (-) TimerEvent: {}
+[3.220222] (-) TimerEvent: {}
+[3.320953] (-) TimerEvent: {}
+[3.421762] (-) TimerEvent: {}
+[3.522527] (-) TimerEvent: {}
+[3.527304] (my_main) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.622737] (-) TimerEvent: {}
+[3.723622] (-) TimerEvent: {}
+[3.824438] (-) TimerEvent: {}
+[3.925189] (-) TimerEvent: {}
+[4.026143] (-) TimerEvent: {}
+[4.126900] (-) TimerEvent: {}
+[4.150677] (my_main) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.227112] (-) TimerEvent: {}
+[4.327868] (-) TimerEvent: {}
+[4.428685] (-) TimerEvent: {}
+[4.494028] (my_main) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.494779] (my_main) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.495198] (my_main) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.500753] (my_main) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.504784] (my_main) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.508045] (my_main) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.518030] (my_main) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.518675] (my_main) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.523775] (my_main) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.528839] (-) TimerEvent: {}
+[4.530905] (my_main) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.629014] (-) TimerEvent: {}
+[4.636387] (my_main) StdoutLine: {'line': b'-- Generating done\n'}
+[4.646175] (my_main) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/CANOPS/build/my_main\n'}
+[4.729241] (-) TimerEvent: {}
+[4.758755] (my_main) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera\x1b[0m\n'}
+[4.759541] (my_main) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target object\x1b[0m\n'}
+[4.829430] (-) TimerEvent: {}
+[4.854596] (my_main) StdoutLine: {'line': b'[100%] Built target camera\n'}
+[4.855501] (my_main) StdoutLine: {'line': b'[100%] Built target object\n'}
+[4.893611] (my_main) CommandEnded: {'returncode': 0}
+[4.929651] (-) TimerEvent: {}
+[5.030599] (-) TimerEvent: {}
+[5.034946] (my_main) JobProgress: {'identifier': 'my_main', 'progress': 'install'}
+[5.070471] (my_main) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/CANOPS/build/my_main'], 'cwd': '/home/pi/CANOPS/build/my_main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/pi'), ('USER', 'pi'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/CANOPS/src/my_main'), ('HUSHLOGIN', 'FALSE'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1105'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/CANOPS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('JOURNAL_STREAM', '8:23778'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'linux'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '38dbf72adb5d46d384bae97dce70f472'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/pi/CANOPS/install/my_main'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_VTNR', '1'), ('PWD', '/home/pi/CANOPS/build/my_main'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/CANOPS/install/my_main:/opt/ros/humble')]), 'shell': False}
+[5.102039] (my_main) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.103186] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/lib/my_main/camera\n'}
+[5.105179] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/lib/my_main/object\n'}
+[5.106254] (my_main) StdoutLine: {'line': b'-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/launch\n'}
+[5.106914] (my_main) StdoutLine: {'line': b'-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/launch/camera.launch.py\n'}
+[5.111665] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/package_run_dependencies/my_main\n'}
+[5.112499] (my_main) StdoutLine: {'line': b'-- Installing: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/parent_prefix_path/my_main\n'}
+[5.113489] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/environment/ament_prefix_path.sh\n'}
+[5.113939] (my_main) StdoutLine: {'line': b'-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/environment/ament_prefix_path.dsv\n'}
+[5.115115] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/environment/path.sh\n'}
+[5.115811] (my_main) StdoutLine: {'line': b'-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/environment/path.dsv\n'}
+[5.116915] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.bash\n'}
+[5.117449] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.sh\n'}
+[5.118007] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.zsh\n'}
+[5.118413] (my_main) StdoutLine: {'line': b'-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/local_setup.dsv\n'}
+[5.119307] (my_main) StdoutLine: {'line': b'-- Installing: /home/pi/CANOPS/install/my_main/share/my_main/package.dsv\n'}
+[5.120689] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/share/ament_index/resource_index/packages/my_main\n'}
+[5.121250] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/cmake/my_mainConfig.cmake\n'}
+[5.121763] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/cmake/my_mainConfig-version.cmake\n'}
+[5.122301] (my_main) StdoutLine: {'line': b'-- Up-to-date: /home/pi/CANOPS/install/my_main/share/my_main/package.xml\n'}
+[5.128026] (my_main) CommandEnded: {'returncode': 0}
+[5.130713] (-) TimerEvent: {}
+[5.231429] (-) TimerEvent: {}
+[5.332655] (-) TimerEvent: {}
+[5.352228] (my_main) JobEnded: {'identifier': 'my_main', 'rc': 0}
+[5.355267] (-) EventReactorShutdown: {}

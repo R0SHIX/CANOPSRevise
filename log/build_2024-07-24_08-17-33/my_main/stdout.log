@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera.dir/src/cameraNode.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable camera[0m
+[ 75%] Built target camera

@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target object[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/camera.dir/src/cameraNode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/object.dir/src/ObjectDetNode.cpp.o[0m
